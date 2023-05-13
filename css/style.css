@@ -862,22 +862,15 @@ body::after {
 
 .decor-server__item {
   position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .no-webp .decor-server__item_top{
-  background: url(../img/server/decor-01.png); }
-
-.decor-server__item_top {
-  top: -60px;
-  background-size: contain;
-}
+  background-image: url(../img/server/decor-01.png); }
 
 .no-webp .decor-server__item_bottom{
-  background: url(../img/server/decor-02.png); }
-
-.decor-server__item_bottom {
-  background-size: contain;
-}
+  background-image: url(../img/server/decor-02.png); }
 
 .buy__container {
   max-width: 885px;
@@ -3760,9 +3753,9 @@ body::after {
   }
 }
 
-.webp .decor-server__item_top{ background: url(../img/server/decor-01.webp); }
+.webp .decor-server__item_top{ background-image: url(../img/server/decor-01.webp); }
 
-.webp .decor-server__item_bottom{ background: url(../img/server/decor-02.webp); }
+.webp .decor-server__item_bottom{ background-image: url(../img/server/decor-02.webp); }
 
 .webp .promote{ background: url(../img/promote/background.webp); }
 
