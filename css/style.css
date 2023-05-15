@@ -2647,6 +2647,10 @@ body::after {
        object-position: right;
   }
 
+  .intro__background {
+    display: none;
+  }
+
   .advantages__items {
     grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
     -webkit-transform: translate(0, 0);
